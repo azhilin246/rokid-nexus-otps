@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.8
+
+- Fix the Backup and restore card so its Export settings and Import settings buttons
+  remain visible at phone widths.
+- Add a measured-layout regression test for both backup actions.
+
 ## 1.0.7
 
 - Add password-encrypted export and import for OTP alert settings.

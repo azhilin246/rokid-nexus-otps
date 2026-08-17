@@ -242,19 +242,19 @@ class OtpSettingsActivity : Activity() {
         addView(BusTheme.gap(this@OtpSettingsActivity, 10))
         addView(
             LinearLayout(this@OtpSettingsActivity).apply {
-                orientation = LinearLayout.HORIZONTAL
+                orientation = LinearLayout.VERTICAL
                 addView(
                     NexusUi.outlinePillButton(this@OtpSettingsActivity, "Export settings").apply {
                         setOnClickListener { chooseExportFile() }
                     },
-                    LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f),
+                    NexusUi.block(),
                 )
                 addView(BusTheme.gap(this@OtpSettingsActivity, 8))
                 addView(
                     NexusUi.outlinePillButton(this@OtpSettingsActivity, "Import settings").apply {
                         setOnClickListener { chooseImportFile() }
                     },
-                    LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f),
+                    NexusUi.block(),
                 )
             },
             NexusUi.block(),
