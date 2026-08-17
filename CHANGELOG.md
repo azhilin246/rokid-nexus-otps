@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.7
+
+- Add password-encrypted export and import for OTP alert settings.
+- Exclude the short-lived OTP history from portable backups.
+
 ## 1.0.6
 
 - Reissue the public release from a sanitized repository history.

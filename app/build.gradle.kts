@@ -12,8 +12,8 @@ android {
         applicationId = "com.havoc.rokidbus.plugin.otps"
         minSdk = 30
         targetSdk = 36
-        versionCode = 7
-        versionName = "1.0.6"
+        versionCode = 8
+        versionName = "1.0.7"
     }
 
     compileOptions {
@@ -25,4 +25,5 @@ android {
 dependencies {
     implementation("com.github.Anezium.Rokid-Nexus:bus-client:sdk-v0.15.0")
     testImplementation("junit:junit:4.13.2")
+    testImplementation("org.json:json:20240303")
 }
